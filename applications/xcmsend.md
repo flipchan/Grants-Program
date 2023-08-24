@@ -6,7 +6,18 @@
 
 **Payment Kusama Address:**
 
-DBCmtnjcqei9WCuTR2SxMUT6AcHcJdhe3aFDRmn9oLYTjMK
+GMBHeFAxUMqYQoeL38zqrPY88XRrgvNmr3EGMuVSPeXxsXm
+
+Address details:   
+GkHAhyJEezrPuJ4CCytry4NfNU7nchh8zUq9RuKYfqRsUuT - Paul
+F37GR5PvHiNj8YWVegr8r2nMosBDtiPVdUrfBSAMZg3e5HJ - Ramsey Decentration
+J93EoDa5dpL1EiF4pKj3Q7gFmcSYL7kwTKuECemKDLVQohQ - Rust Syndicate Wallet
+DzTYUHXSiguQ7qHqTdJc89rZBgCg5Co4mQ1cKqf8azfx78R - Ace 
+
+
+Multisig address(2/4 Multisig with address listed above):
+GMBHeFAxUMqYQoeL38zqrPY88XRrgvNmr3EGMuVSPeXxsXm
+
 
 **Payment terms:**
 
@@ -110,7 +121,10 @@ https://github.com/colorfulnotion/substrate-etl/pull/10
 
 **Ramsey Ajram** - Decentration - Substrate Developer, Product, Frontend, experience taking parachain into production, Polkadot Blockchain Academy alumni, W3F funded for Supersig (pallet and UI) [https://subverse.decentration.org](https://subverse.decentration.org).
 
-**Ace Salazar** - Rust Syndicate  - Project coordination, Previous experience working on projects for the Rust programming language’s ecosystem.
+**Ace Salazar** - Rust Syndicate  - Project coordination, Previous experience working on projects for the Rust programming language’s ecosystem.  Moderator of the Kusama Multisig.  
+
+**JelliedOwl(Paul)** - Substrate based chain rpc provider, trusted community member, Moderator of the Kusama Multisig.
+
 
 ### **Team Code Repos**
 
