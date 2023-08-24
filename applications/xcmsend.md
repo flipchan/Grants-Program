@@ -4,26 +4,16 @@
 
 *Rust Syndicate x Decentration*
 
-**Payment Kusama Address:**
+**Payment Polkadot(DOT) Address:**
 
-GMBHeFAxUMqYQoeL38zqrPY88XRrgvNmr3EGMuVSPeXxsXm
-
-Address details:   
-GkHAhyJEezrPuJ4CCytry4NfNU7nchh8zUq9RuKYfqRsUuT - Paul
-F37GR5PvHiNj8YWVegr8r2nMosBDtiPVdUrfBSAMZg3e5HJ - Ramsey Decentration
-J93EoDa5dpL1EiF4pKj3Q7gFmcSYL7kwTKuECemKDLVQohQ - Rust Syndicate Wallet
-DzTYUHXSiguQ7qHqTdJc89rZBgCg5Co4mQ1cKqf8azfx78R - Ace 
-
-
-Multisig address(2/4 Multisig with address listed above):
-GMBHeFAxUMqYQoeL38zqrPY88XRrgvNmr3EGMuVSPeXxsXm
+15iN8aQnPuX4vjcovenu15EtnYfcwbtiXjeKGRN3KkkzNNtt
 
 
 **Payment terms:**
 
-We request payment for each milestone in KSM on Kusama. Converting the price from usd to ksm at the time of payout using a EMA7 price conversion.
+We request payment for each milestone in DOT on Polkadot. Converting the price from usd to dot at the time of payout using a EMA7 price conversion.
 
-[https://kusama.subscan.io/tools/price\_converter](https://kusama.subscan.io/tools/price_converter)
+[https://polkadot.subscan.io/tools/price\_converter](https://polkadot.subscan.io/tools/price_converter)
 
 **Funding Level: 2 - 30 000 USD**
 
@@ -121,9 +111,10 @@ https://github.com/colorfulnotion/substrate-etl/pull/10
 
 **Ramsey Ajram** - Decentration - Substrate Developer, Product, Frontend, experience taking parachain into production, Polkadot Blockchain Academy alumni, W3F funded for Supersig (pallet and UI) [https://subverse.decentration.org](https://subverse.decentration.org).
 
-**Ace Salazar** - Rust Syndicate  - Project coordination, Previous experience working on projects for the Rust programming language’s ecosystem.  Moderator of the Kusama Multisig.  
+**Ace Salazar** - Rust Syndicate  - Project coordination, Previous experience working on projects for the Rust programming language’s ecosystem.  
 
-**JelliedOwl(Paul)** - Substrate based chain rpc provider, trusted community member, Moderator of the Kusama Multisig.
+
+**JelliedOwl(Paul)** - Substrate based chain rpc provider, trusted community member, Moderator of the Polkadot Multisig.
 
 
 ### **Team Code Repos**
@@ -167,7 +158,7 @@ https://decentration.org
 
 - **Full-Time Equivalent (FTE):**  2 FTE
 
-- **Total Costs:** 30 000 USD to be converted into KSM(Kusama)
+- **Total Costs:** 30 000 USD to be converted into DOT(Polkadot)
 
 **Milestone 1: XCM SEND MVP**
 
