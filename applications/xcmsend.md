@@ -35,7 +35,7 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 - Where and how does your project fit into the ecosystem?
 
-XcmSend is in the category of a utility tool, that makes interacting with blockchains in relation to cross-chain, simple and painless.
+XcmSend is in the category of a utility/tool, which will make interacting with relay/parachains in relation to cross-chain, simple and painless.
   
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
   
