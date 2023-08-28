@@ -71,11 +71,7 @@ $ ./generateNetworksSummary
 $ cat SUMMARY.md
 ```
 
-Note:
-
-If your getting curl connection timeout errors, we have added a pr to fix this:
-
-https://github.com/colorfulnotion/substrate-etl/pull/10
+_Note: If your getting curl connection timeout errors, we have added a pr to [fix this](https://github.com/colorfulnotion/substrate-etl/pull/10)._
 
 **Why XCMSend?**
 
