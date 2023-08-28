@@ -149,8 +149,6 @@ API: Rust, Substrate utilities.
 we will provide generic functionality where we can that covers multiple chains, however if there is a unique integration required for a parachain, this will be left out of these milestones. Where will be as explicit as possible about which chains we will support, however that support could be generalised to other chains. We will make simple for other projects to clone our project add their chains, then can their host that instance themselves and/or make a PR to XcmSend official repo. 
   
 
-
-
 ### **Legal Structure**
 
 -   Registered Address: Vakhtang Gorgasali Street Nr 14, Office Door number 30, Tbilisi, Georgia
@@ -204,7 +202,6 @@ Contact email:
 
 https://decentration.org
 
-## **Development Status 📖**
 
 ## **Development Roadmap 🔩**
 
