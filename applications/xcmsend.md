@@ -1,84 +1,54 @@
-## XCMSend
+# XCMSend
 
 **Team Name:**
-
 *Rust Syndicate x Decentration*
 
-**Payment Polkadot(DOT) Address:**
-
+**Payment Address:** (DOT)
 15iN8aQnPuX4vjcovenu15EtnYfcwbtiXjeKGRN3KkkzNNtt
 
+- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
-**Payment terms:**
+## Project Overview :page_facing_up:
 
-We request payment for each milestone in DOT on Polkadot. Converting the price from usd to dot at the time of payout using a EMA7 price conversion.
+### Overview
 
-[https://polkadot.subscan.io/tools/price\_converter](https://polkadot.subscan.io/tools/price_converter)
-
-**Funding Level: 2 - 30 000 USD**
-
-**Why XCMSend?**
-
-In a nutshell, XcmSend aims to simplify the process of xcm transaction curation and execution, as a non-partisan, open source project?
-
--   **Non biassed XCM Transfers**
-
-XCMSend treats all transactions to all chains with the same priority. We do not charge middleman fees and our priority is that the user defined Asset gets properly sent.
-
--   **Increase XCM transaction volume**
-
-By enabling more users to utilize easy to send XCM asset transfers, we aim at providing a peak in XCM transaction traffic.
-
--   **Not a DEX**
-
-XCMSend does not manage liquidity pools, no limit orders, we only send assets from chain A to B with XCM.
-
--  ** Enable non-custodial, easy to use XCM Transfers/Make XCM transfers user friendly**
-
-- **The need for simplification and real-time updates**
+- If the name of your project is not descriptive, a tag line (one sentence summary):
   
-XCM has a growing share of all transactions in the ecosystem. The added complexity of curating calls, and the longer waiting times than single chain transactions, means that there must be a focus on user experience. In this context, experience can be improved:
+  XCMSend: make cross-chain transfers with ease with real-time status updates, all in one place. 
 
- - **Before sending:** By abstracting away the complex and painful process that goes into curating an xcm call. A user does not manually need to draft the extrinsics needed for a XCM Transfer, with XCMSend we want to bring a seamless DeFi experience for anyone that wants to send assets with XCM.
+- A brief description of your project:
+  
+  XCMSend aims to be the seamless way to interface with chains via XCM, designed to provide an unbiased platform, and user-friendly cross-chain message transfers within the Polkadot ecosystem. Think 
+  of a no-code layer to compose transactions.
+   
+- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama:
+  
+  We are building a building a utility that interfaces with relay chain and parachains that have established HRMP channels, enabling cross chain transfers.
+  
+- An indication of why your team is interested in creating this project.
+  
+  We have experience working with xcm connecting parachains via hrmp, building Defi and Governance applications. We see the potency of XCM and are interested in building tools that improve the 
+  experience for standard non-technical users as well as developers who want to build the next generation of XCM Dapps.
 
- - **At execution**: by providing real-time dynamic status updates when executing the call, all in one place.
 
+  ### Ecosystem Fit
 
--   Easily test XCM asset transfers between chains
--   More liquidity to the ecosystem/empower DeFi users
--   OpenSource with MIT License
+Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
-Once XCMSend has delivered the first milestones, it will be available publicly for anyone to use under the MIT license. Anyone will be able to clone the repository and spin up their own local XCMSend instance.
+- Where and how does your project fit into the ecosystem?
 
-## **Project Overview 📄**
-
-#### What is XcmSend?
-
-XcmSend is a public Xcm asset transfer app that is open source and serverless, which interfaces with blockchains, making it simple for users to send assets between chains.
-
-"Does what it says on the tin". Powered by the XCM protocol, our platform simplifies the process of cross-chain transfers.
-
-Anyone can create their own instance, and XCMSend.com will also host an official instance. 
-
-### **Project Details**
-
-**Mock interface:**
-
-1: (V0)Send asset![](https://lh3.googleusercontent.com/P-yFl3Mh6cyg5uXQJD8Q8J4f9K16JamfIV7Cwa8rY6H2jVAPIUoz8xl1uyiyf9BysMXK5d4_YoV53tpTjPHxzlVsJqGatk13KEoPijQWc1ziW15MbM-oSkxOVx791aAliAKjaBFTa_pQXqxBKryu2Qg)
-
-2:  (V0) Transaction Broadcasted and Completed![](https://lh6.googleusercontent.com/OcNgY37AQHfw1kpGPZiNoAnwM93wlgbURtPJc8Xa_6foezh_h5lA3u9DmmuQ49XJk2AksSgmnd40u6q39uhQTiktaIrF66Ws6AfbS1biJxuBZV1A8YgN5otnFGlrtDx6N0x15R7GRXwXs_f-CBf62OM)
-
-3: (V1) Transaction Broadcasted and Completed
-
-![](https://lh3.googleusercontent.com/d7Ce03UkdiNqylBQdfjnz1c-l5WXClpDeAfOtSeh9_9NBVUUWF95s2AN496yYOpAD7A9ui0iyc2tR31z4Roelpz5FvS-UzXQ_4LtlKmu7GCdR7U673d9EoRfyUhSxAiH9ZKwuik_jPUhbCV4gEC6f0g)
-
-As XCM transactions are more complex than a simple balance transfer on a single chain, the average time of a transaction is higher and more “moving parts” means there is an increased chance for errors during the transaction life cycle. This is why it is pertinent that the user is informed of the transaction status. We will enable real-time dynamic updates. As shown in the above screenshots. V0 for Milestone 1 and V1 for Milestone 2.
-
-We will use the web3 foundation funded project “Polkaholic” as block explorer, as it supports viewing XCM transfers.
-
-### **Ecosystem Fit**
-
-As of the present composition, sending asset transfers across distinct parachain connected networks remains a task that lacks inherent user-friendliness. A relatively modest array of decentralized exchanges, including entities such as HydraDX and Polkaswap, are available to address this challenge. Notably, the proliferation of XCM adoption within the DotSama ecosystem is exhibiting a notable and continuous expansion. We want a bring a a user-friendly way for anyone to send assets from one parachain to another. Opening up XCM transfers for everyone.
+  XcmSend is in the category of a utility/tool, which will make interacting with relay/parachains in relation to cross-chain, simple and painless.
+  
+- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+  
+  Our target audience are users of polkadot/kusama and parachains which are enabled to make xcm tranfers. Within that userbase are developers such as ourselves who have certain pains when testing 
+  our integrations. Those pains include composition and execution status updates, which is our initial focus, and which will benefit all, including the standard non-technical yet competent users. 
+  
+- What need(s) does your project meet?
+ 
+  As of the present composition, sending asset transfers across distinct parachain connected networks remains a task that lacks inherent user-friendliness. A relatively modest array of decentralized 
+  exchanges, including entities such as HydraDX and Polkaswap, are available to address this challenge. Notably, the proliferation of XCM adoption within the DotSama ecosystem is exhibiting a 
+  notable and continuous expansion. We want a bring a a user-friendly way for anyone to send assets from one parachain to another. Opening up XCM transfers for everyone.
 
 Xcm Adoption in the Dotsama ecosystem is growing and growing:
 
@@ -88,8 +58,7 @@ XCM Traffic chart from  2021/04/12 to 2023/05/07.
 
 We want to enable everyone to be able to spin up their own ;lightweight instance of XCMSend and easily be able to send assets from one chain to another.
 
-Data Source:
-
+Data Source: 
 Polkaholics: [https://github.com/colorfulnotion/substrate-etl](https://github.com/colorfulnotion/substrate-etl)
 
 Replicate data:
@@ -108,6 +77,83 @@ If your getting curl connection timeout errors, we have added a pr to fix this:
 
 https://github.com/colorfulnotion/substrate-etl/pull/10
 
+**Why XCMSend?**
+
+In a nutshell, XcmSend aims to simplify the process of xcm transaction curation and execution, as a non-partisan, open source project?
+
+-   **Non-biased XCM Transfers**
+
+XCMSend treats all transactions to all chains with the same priority. We do not charge middleman fees and our priority is that the user defined Asset gets properly sent.
+
+-   **Increase XCM transaction volume**
+
+By enabling more users to utilize easy to send XCM asset transfers, our ambition is to take a good share of the growing XCM traffic.
+
+-   **Not a DEX**
+
+XCMSend does not manage liquidity pools, no limit orders, we only send assets from chain A to B with XCM.
+
+**Non-custodial and user friendly**
+
+- **The need for simplification and real-time updates**
+  
+XCM has a growing share of all transactions in the ecosystem. Composing calls is hard and time-consuming. Finding out the status of the execution can become a jigsaw puzzle. Here is where we are going to focus on improving the experience:
+
+ - **Before sending:** By abstracting away the complex and painful process that goes into curating an xcm call. A user does not manually need to draft the extrinsics needed for a XCM Transfer, with XCMSend we want to bring a seamless DeFi experience for anyone that wants to send assets with XCM.
+
+ - **At execution**: by providing real-time dynamic status updates when executing the call, all in one place.
+
+In summary:
+
+-   Make xcm calls in just a few clicks.
+-   Get status updates across journey all in one plce. 
+-   Easily test XCM asset transfers between chains
+-   More liquidity to the ecosystem/empower DeFi users
+-   Community owned and OpenSource with MIT License
+
+
+#### What is XcmSend?
+
+XcmSend is a public Xcm asset transfer app that is open source and serverless, which interfaces with blockchains, making it simple for users to send assets between chains.
+
+"Does what it says on the tin". Powered by the XCM protocol, our platform simplifies the process of cross-chain transfers.
+
+Anyone can create their own instance, and XCMSend.com will also host an official instance. 
+
+### **Project Details**
+
+We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+
+- Mockups/designs of any UI components
+
+**Mock interface:**
+
+1: (V0)Send asset![](https://lh3.googleusercontent.com/P-yFl3Mh6cyg5uXQJD8Q8J4f9K16JamfIV7Cwa8rY6H2jVAPIUoz8xl1uyiyf9BysMXK5d4_YoV53tpTjPHxzlVsJqGatk13KEoPijQWc1ziW15MbM-oSkxOVx791aAliAKjaBFTa_pQXqxBKryu2Qg)
+
+2:  (V0) Transaction Broadcasted and Completed![](https://lh6.googleusercontent.com/OcNgY37AQHfw1kpGPZiNoAnwM93wlgbURtPJc8Xa_6foezh_h5lA3u9DmmuQ49XJk2AksSgmnd40u6q39uhQTiktaIrF66Ws6AfbS1biJxuBZV1A8YgN5otnFGlrtDx6N0x15R7GRXwXs_f-CBf62OM)
+
+3: (V1) Transaction Broadcasted and Completed
+
+![](https://lh3.googleusercontent.com/d7Ce03UkdiNqylBQdfjnz1c-l5WXClpDeAfOtSeh9_9NBVUUWF95s2AN496yYOpAD7A9ui0iyc2tR31z4Roelpz5FvS-UzXQ_4LtlKmu7GCdR7U673d9EoRfyUhSxAiH9ZKwuik_jPUhbCV4gEC6f0g)
+
+As XCM transactions are more complex than a simple balance transfer on a single chain, the average time of a transaction is higher and more “moving parts” means there is an increased chance for errors during the transaction life cycle. This is why it is pertinent that the user is informed of the transaction status. We will enable real-time dynamic updates. As shown in the above screenshots. V0 for Milestone 1 and V1 for Milestone 2.
+
+- Data models / API specifications of the core functionality:
+
+- An overview of the technology stack to be used
+UI: React, Javascript, Typescript, Zustand state management, React Flow, Polkadot-js extension
+API: Rust, Substrate utilities.
+
+- Documentation of core components, protocols, architecture, etc. to be deployed
+- PoC/MVP or other relevant prior work or research on the topic
+- What your project is _not_ or will _not_ provide or implement
+  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+
+we will provide generic functionality where we can that covers multiple chains, however if there is a unique integration required for a parachain, this will be left out of these milestones. Where will be as explicit as possible about which chains we will support, however that support could be generalised to other chains. We will make simple for other projects to clone our project add their chains, then can their host that instance themselves and/or make a PR to XcmSend official repo. 
+  
+
+
+
 ### **Legal Structure**
 
 -   Registered Address: Vakhtang Gorgasali Street Nr 14, Office Door number 30, Tbilisi, Georgia
@@ -119,10 +165,9 @@ https://github.com/colorfulnotion/substrate-etl/pull/10
 
 **Filip "flipchan" Kalebo** - Rust Syndicate  - Developer, DevSecOps, Previously worked on early stage Picasso chain, Edgeware Solo chain and recently “Uptest” that is funded by the Polkadot Treasury.
 
-**Ramsey Ajram** - Decentration - Substrate Developer, Product, Frontend, took a parachain into production on Kusama, W3F funded for Supersig (pallet and UI) [https://subverse.decentration.org](https://subverse.decentration.org). Polkadot Blockchain Academy alumni.
+**Ramsey Ajram** - Decentration - Substrate Developer, Product, Frontend, took a parachain into production on Kusama, W3F funded for Supersig (pallet and UI) [https://subverse.decentration.org](https://subverse.decentration.org). Polkadot Blockchain Academy (PBA) Alumni.
 
 **Ace Salazar** - Rust Syndicate  - Project coordination, Previous experience working on projects for the Rust programming language’s ecosystem.  
-
 
 **JelliedOwl(Paul)** - Substrate based chain rpc provider, trusted community member, Moderator of the Polkadot Multisig.
 
@@ -140,7 +185,7 @@ The team has delivered previous projects in the substrate ecosystem:
 - Flipchan migrated Edgeware from an old version of substrate to the new version, which required complex refactoring and storage migrations. 
 - Based on the above experience, Flipchan was then grant funded by the polkadot treasury to build Uptest, a library to test runtime upgrades.
 - Ramsey launched an experimental parachain on behalf of Edgeware called, Kabocha. 
-- Decentration (lead by Ramsey) was grant funded by W3F to create organisations (pallet and UI) called supersig.  
+- Decentration (lead by Ramsey) was grant funded by W3F to create tools to build decentralised orgs (pallet and UI) called Supersig.  
 
 ## **Contact:**
 
@@ -168,7 +213,7 @@ https://decentration.org
 
 ### Overview
 
-- **Total Estimated Duration:** 9 weeks
+- **Total Estimated Duration:** 8 weeks
 
 - **Full-Time Equivalent (FTE):**  2 FTE
 
@@ -178,7 +223,7 @@ https://decentration.org
 
 FTE: 2
 
-Duration: 5 weeks
+Duration: 4 weeks
 
 Costs: 15000 USD
 
@@ -193,7 +238,7 @@ Costs: 15000 USD
 | 0d      | Docker  | We will publish a docker image that users can use to test XCMSend locally       |
 | 0e      | Article  | We will publish an article that walks the end user hand in hand on how to use XCMSend       |
 | 1      | XCMSend UI (MVP)  | Build the first version of the XCMSend UI which begins with teleporting assets.        |
-| 2      | Polkadot.js browser wallet integration  | Supporting polkadot.js browser wallet       |
+| 2      | Polkadot.js browser wallet integration  | Supporting polkadot.js extension wallet       |
 | 3      | Public beta instance  | We will deploy a version of XCMsend publicly on XCMSend.com       |
 | 4      | Rococo XCM Transfers | We will enable teleporting of assets across chains within the Rococo network. Such as ROC from Rococo to AssetHub.       |
 
