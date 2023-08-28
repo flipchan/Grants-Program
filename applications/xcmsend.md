@@ -239,8 +239,7 @@ Costs: 15000 USD
 | 0e      | Article  | We will publish an article that walks the end user hand in hand on how to use XCMSend       |
 | 1      | XCMSend UI (MVP)  | Build the first version of the XCMSend UI which begins with teleporting assets.        |
 | 2      | Polkadot.js browser wallet integration  | Supporting polkadot.js extension wallet       |
-| 3      | Public beta instance  | We will deploy a version of XCMsend publicly on XCMSend.com       |
-| 4      | Rococo XCM Transfers | We will enable teleporting of assets across chains within the Rococo network. Such as ROC from Rococo to AssetHub.       |
+| 3      | Rococo XCM Transfers | We will enable teleporting of assets across chains within the Rococo network. Such as ROC from Rococo to AssetHub.       |
 
 
 
@@ -260,7 +259,7 @@ Costs: 15000
 | 0c      | Testing and Testing Guide  | In our published documentation and articles we will cover the steps needed to test XCMSend |
 | 0d      | Docker  | We will publish a docker image that users can use to test XCMSend locally       |
 | 0e      | Article  | We will publish an article that walks the end user hand in hand on how to use XCMSend       |
-| 1      | Support 3 chains or more  | Support at least 3 different parachains as source chains to send assets from       |
+| 1      | Support 3 chains or more  | Support at least 3 different parachains as source chains to send assets from  |
 | 2      | Json-rpc api  | We want to enable users to send XCM Transfers in a high level way and we will provide a basic api that can be used by client libraries, to seamlessly broadcast XCM asset transfers.       |
 | 3      | Parachain discovery  | XCMSend will track which parachains are currently connected and filter the selection based on that. The lease times of each parachain needs to be accounted for as well.        |
 | 4      | Auto index XCM channels  | Filter the options for source and destination chain based on the open channels that are available       |
