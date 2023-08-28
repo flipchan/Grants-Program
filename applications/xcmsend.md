@@ -31,7 +31,7 @@
   experience for standard non-technical users as well as developers who want to build the next generation of XCM Dapps.
 
 
-  ### Ecosystem Fit
+### Ecosystem Fit
 
 Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
@@ -71,11 +71,7 @@ $ ./generateNetworksSummary
 $ cat SUMMARY.md
 ```
 
-Note:
-
-If your getting curl connection timeout errors, we have added a pr to fix this:
-
-https://github.com/colorfulnotion/substrate-etl/pull/10
+_Note: If your getting curl connection timeout errors, we have added a pr to [fix this](https://github.com/colorfulnotion/substrate-etl/pull/10)._
 
 **Why XCMSend?**
 
@@ -128,12 +124,13 @@ We expect the teams to already have a solid idea about your project's expected f
 
 **Mock interface:**
 
-1: (V0)Send asset![](https://lh3.googleusercontent.com/P-yFl3Mh6cyg5uXQJD8Q8J4f9K16JamfIV7Cwa8rY6H2jVAPIUoz8xl1uyiyf9BysMXK5d4_YoV53tpTjPHxzlVsJqGatk13KEoPijQWc1ziW15MbM-oSkxOVx791aAliAKjaBFTa_pQXqxBKryu2Qg)
+1: (V0)Send asset
+![](https://lh3.googleusercontent.com/P-yFl3Mh6cyg5uXQJD8Q8J4f9K16JamfIV7Cwa8rY6H2jVAPIUoz8xl1uyiyf9BysMXK5d4_YoV53tpTjPHxzlVsJqGatk13KEoPijQWc1ziW15MbM-oSkxOVx791aAliAKjaBFTa_pQXqxBKryu2Qg)
 
-2:  (V0) Transaction Broadcasted and Completed![](https://lh6.googleusercontent.com/OcNgY37AQHfw1kpGPZiNoAnwM93wlgbURtPJc8Xa_6foezh_h5lA3u9DmmuQ49XJk2AksSgmnd40u6q39uhQTiktaIrF66Ws6AfbS1biJxuBZV1A8YgN5otnFGlrtDx6N0x15R7GRXwXs_f-CBf62OM)
+2:  (V0) Transaction Broadcasted and Completed
+![](https://lh6.googleusercontent.com/OcNgY37AQHfw1kpGPZiNoAnwM93wlgbURtPJc8Xa_6foezh_h5lA3u9DmmuQ49XJk2AksSgmnd40u6q39uhQTiktaIrF66Ws6AfbS1biJxuBZV1A8YgN5otnFGlrtDx6N0x15R7GRXwXs_f-CBf62OM)
 
 3: (V1) Transaction Broadcasted and Completed
-
 ![](https://lh3.googleusercontent.com/d7Ce03UkdiNqylBQdfjnz1c-l5WXClpDeAfOtSeh9_9NBVUUWF95s2AN496yYOpAD7A9ui0iyc2tR31z4Roelpz5FvS-UzXQ_4LtlKmu7GCdR7U673d9EoRfyUhSxAiH9ZKwuik_jPUhbCV4gEC6f0g)
 
 As XCM transactions are more complex than a simple balance transfer on a single chain, the average time of a transaction is higher and more “moving parts” means there is an increased chance for errors during the transaction life cycle. This is why it is pertinent that the user is informed of the transaction status. We will enable real-time dynamic updates. As shown in the above screenshots. V0 for Milestone 1 and V1 for Milestone 2.
@@ -152,8 +149,6 @@ API: Rust, Substrate utilities.
 
 we will provide generic functionality where we can that covers multiple chains, however if there is a unique integration required for a parachain, this will be left out of these milestones. Where will be as explicit as possible about which chains we will support, however that support could be generalised to other chains. We will make simple for other projects to clone our project add their chains, then can their host that instance themselves and/or make a PR to XcmSend official repo. 
   
-
-
 
 ### **Legal Structure**
 
@@ -208,7 +203,6 @@ Contact email:
 
 https://decentration.org
 
-## **Development Status 📖**
 
 ## **Development Roadmap 🔩**
 
@@ -240,8 +234,7 @@ Costs: 15000 USD
 | 0e      | Article  | We will publish an article that walks the end user hand in hand on how to use XCMSend       |
 | 1      | XCMSend UI (MVP)  | Build the first version of the XCMSend UI which begins with sending crosschain assets transfers.        |
 | 2      | Polkadot.js browser wallet integration  | Supporting polkadot.js extension wallet       |
-| 3      | Public beta instance  | We will deploy a version of XCMsend publicly on XCMSend.com       |
-| 4      | Rococo XCM Transfers | We will enable teleporting of assets across chains within the Rococo network. Such as ROC from Rococo to AssetHub.       |
+| 3      | Rococo XCM Transfers | We will enable teleporting of assets across chains within the Rococo network. Such as ROC from Rococo to AssetHub.       |
 
 
 
@@ -261,7 +254,7 @@ Costs: 15000
 | 0c      | Testing and Testing Guide  | In our published documentation and articles we will cover the steps needed to test XCMSend |
 | 0d      | Docker  | We will publish a docker image that users can use to test XCMSend locally       |
 | 0e      | Article  | We will publish an article that walks the end user hand in hand on how to use XCMSend       |
-| 1      | Support 3 chains or more  | Support at least 3 different parachains as source chains to send assets from       |
+| 1      | Support 3 chains or more  | Support at least 3 different parachains as source chains to send assets from  |
 | 2      | Json-rpc api  | We want to enable users to send XCM Transfers in a high level way and we will provide a basic api that can be used by client libraries, to seamlessly broadcast XCM asset transfers.       |
 | 3      | Parachain discovery  | XCMSend will track which parachains are currently connected and filter the selection based on that. The lease times of each parachain needs to be accounted for as well.        |
 | 4      | Auto index XCM channels  | Filter the options for source and destination chain based on the open channels that are available       |
