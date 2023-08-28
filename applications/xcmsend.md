@@ -135,7 +135,7 @@ We expect the teams to already have a solid idea about your project's expected f
 
 As XCM transactions are more complex than a simple balance transfer on a single chain, the average time of a transaction is higher and more “moving parts” means there is an increased chance for errors during the transaction life cycle. This is why it is pertinent that the user is informed of the transaction status. We will enable real-time dynamic updates. As shown in the above screenshots. V0 for Milestone 1 and V1 for Milestone 2.
 
-- Data models / API specifications of the core functionality:
+- Data models / API specifications of the core functionality: Mockup designs of the interface can be found above.  
 
 - An overview of the technology stack to be used
 UI: React, Javascript, Typescript, Zustand state management, React Flow, Polkadot-js extension
