@@ -144,10 +144,11 @@ As XCM transactions are more complex than a simple balance transfer on a single 
 UI: React, Javascript, Typescript, Zustand state management, React Flow, Polkadot-js extension
 API: Rust, Substrate utilities.
 
-- Documentation of core components, protocols, architecture, etc. to be deployed
+- Documentation of core components, protocols, architecture: We will provide user guides and documentation publicily linked from the main git repository. 
+
 - PoC/MVP or other relevant prior work or research on the topic
 - What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+  - Like previously stated, XcmSend is not a DEX so we will not provide limit orders, trading one token for another with a market maker and/or orderbook functionality.
 
 we will provide generic functionality where we can that covers multiple chains, however if there is a unique integration required for a parachain, this will be left out of these milestones. Where will be as explicit as possible about which chains we will support, however that support could be generalised to other chains. We will make simple for other projects to clone our project add their chains, then can their host that instance themselves and/or make a PR to XcmSend official repo. 
   
@@ -237,7 +238,7 @@ Costs: 15000 USD
 | 0c      | Testing and Testing Guide  | In our published documentation and articles we will cover the steps needed to test XCMSend       |
 | 0d      | Docker  | We will publish a docker image that users can use to test XCMSend locally       |
 | 0e      | Article  | We will publish an article that walks the end user hand in hand on how to use XCMSend       |
-| 1      | XCMSend UI (MVP)  | Build the first version of the XCMSend UI which begins with teleporting assets.        |
+| 1      | XCMSend UI (MVP)  | Build the first version of the XCMSend UI which begins with sending crosschain assets transfers.        |
 | 2      | Polkadot.js browser wallet integration  | Supporting polkadot.js extension wallet       |
 | 3      | Public beta instance  | We will deploy a version of XCMsend publicly on XCMSend.com       |
 | 4      | Rococo XCM Transfers | We will enable teleporting of assets across chains within the Rococo network. Such as ROC from Rococo to AssetHub.       |
