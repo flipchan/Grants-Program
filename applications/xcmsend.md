@@ -128,12 +128,13 @@ We expect the teams to already have a solid idea about your project's expected f
 
 **Mock interface:**
 
-1: (V0)Send asset![](https://lh3.googleusercontent.com/P-yFl3Mh6cyg5uXQJD8Q8J4f9K16JamfIV7Cwa8rY6H2jVAPIUoz8xl1uyiyf9BysMXK5d4_YoV53tpTjPHxzlVsJqGatk13KEoPijQWc1ziW15MbM-oSkxOVx791aAliAKjaBFTa_pQXqxBKryu2Qg)
+1: (V0)Send asset
+![](https://lh3.googleusercontent.com/P-yFl3Mh6cyg5uXQJD8Q8J4f9K16JamfIV7Cwa8rY6H2jVAPIUoz8xl1uyiyf9BysMXK5d4_YoV53tpTjPHxzlVsJqGatk13KEoPijQWc1ziW15MbM-oSkxOVx791aAliAKjaBFTa_pQXqxBKryu2Qg)
 
-2:  (V0) Transaction Broadcasted and Completed![](https://lh6.googleusercontent.com/OcNgY37AQHfw1kpGPZiNoAnwM93wlgbURtPJc8Xa_6foezh_h5lA3u9DmmuQ49XJk2AksSgmnd40u6q39uhQTiktaIrF66Ws6AfbS1biJxuBZV1A8YgN5otnFGlrtDx6N0x15R7GRXwXs_f-CBf62OM)
+2:  (V0) Transaction Broadcasted and Completed
+![](https://lh6.googleusercontent.com/OcNgY37AQHfw1kpGPZiNoAnwM93wlgbURtPJc8Xa_6foezh_h5lA3u9DmmuQ49XJk2AksSgmnd40u6q39uhQTiktaIrF66Ws6AfbS1biJxuBZV1A8YgN5otnFGlrtDx6N0x15R7GRXwXs_f-CBf62OM)
 
 3: (V1) Transaction Broadcasted and Completed
-
 ![](https://lh3.googleusercontent.com/d7Ce03UkdiNqylBQdfjnz1c-l5WXClpDeAfOtSeh9_9NBVUUWF95s2AN496yYOpAD7A9ui0iyc2tR31z4Roelpz5FvS-UzXQ_4LtlKmu7GCdR7U673d9EoRfyUhSxAiH9ZKwuik_jPUhbCV4gEC6f0g)
 
 As XCM transactions are more complex than a simple balance transfer on a single chain, the average time of a transaction is higher and more “moving parts” means there is an increased chance for errors during the transaction life cycle. This is why it is pertinent that the user is informed of the transaction status. We will enable real-time dynamic updates. As shown in the above screenshots. V0 for Milestone 1 and V1 for Milestone 2.
