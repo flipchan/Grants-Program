@@ -31,7 +31,7 @@
   experience for standard non-technical users as well as developers who want to build the next generation of XCM Dapps.
 
 
-  ### Ecosystem Fit
+### Ecosystem Fit
 
 Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
