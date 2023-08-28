@@ -14,11 +14,12 @@
 
 - If the name of your project is not descriptive, a tag line (one sentence summary):
   
-XCMSend: make cross-chain transfers with ease with real-time status updates, all in one place. 
+  XCMSend: make cross-chain transfers with ease with real-time status updates, all in one place. 
 
 - A brief description of your project:
   
-XCMSend aims to be the seamless way to interface with chains via XCM, designed to provide an unbiased platform, and user-friendly cross-chain message transfers within the Polkadot ecosystem. Think of a no-code layer to compose transactions.
+  XCMSend aims to be the seamless way to interface with chains via XCM, designed to provide an unbiased platform, and user-friendly cross-chain message transfers within the Polkadot ecosystem. Think 
+  of a no-code layer to compose transactions.
    
 - An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama:
   
@@ -26,7 +27,8 @@ XCMSend aims to be the seamless way to interface with chains via XCM, designed t
   
 - An indication of why your team is interested in creating this project.
   
-  We have experience working with xcm connecting parachains via hrmp, building Defi and Governance applications. We see the potency of XCM and are interested in building tools that improve the experience for standard non-technical users as well as developers who want to build the next generation of XCM Dapps.
+  We have experience working with xcm connecting parachains via hrmp, building Defi and Governance applications. We see the potency of XCM and are interested in building tools that improve the 
+  experience for standard non-technical users as well as developers who want to build the next generation of XCM Dapps.
 
 
   ### Ecosystem Fit
@@ -35,15 +37,18 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 - Where and how does your project fit into the ecosystem?
 
-XcmSend is in the category of a utility/tool, which will make interacting with relay/parachains in relation to cross-chain, simple and painless.
+  XcmSend is in the category of a utility/tool, which will make interacting with relay/parachains in relation to cross-chain, simple and painless.
   
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
   
-Our target audience are users of polkadot/kusama and parachains which are enabled to make xcm tranfers. Within that userbase are developers such as ourselves who have certain pains when testing our integrations. Those pains include composition and execution status updates, which is our initial focus, and which will benefit all, including the standard non-technical yet competent users. 
+  Our target audience are users of polkadot/kusama and parachains which are enabled to make xcm tranfers. Within that userbase are developers such as ourselves who have certain pains when testing 
+  our integrations. Those pains include composition and execution status updates, which is our initial focus, and which will benefit all, including the standard non-technical yet competent users. 
   
 - What need(s) does your project meet?
  
-As of the present composition, sending asset transfers across distinct parachain connected networks remains a task that lacks inherent user-friendliness. A relatively modest array of decentralized exchanges, including entities such as HydraDX and Polkaswap, are available to address this challenge. Notably, the proliferation of XCM adoption within the DotSama ecosystem is exhibiting a notable and continuous expansion. We want a bring a a user-friendly way for anyone to send assets from one parachain to another. Opening up XCM transfers for everyone.
+  As of the present composition, sending asset transfers across distinct parachain connected networks remains a task that lacks inherent user-friendliness. A relatively modest array of decentralized 
+  exchanges, including entities such as HydraDX and Polkaswap, are available to address this challenge. Notably, the proliferation of XCM adoption within the DotSama ecosystem is exhibiting a 
+  notable and continuous expansion. We want a bring a a user-friendly way for anyone to send assets from one parachain to another. Opening up XCM transfers for everyone.
 
 Xcm Adoption in the Dotsama ecosystem is growing and growing:
 
