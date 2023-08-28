@@ -17,12 +17,15 @@
 XCMSend: make cross-chain transfers with ease with real-time status updates, all in one place. 
 
 - A brief description of your project:
-XCMSend aims to be the painless way to interface with chains via XCM, designed to provide seamless, unbiased, and user-friendly cross-chain message transfers within the Polkadot ecosystem. Think of a no-code layer to compose transactions.
+  
+XCMSend aims to be the seamless way to interface with chains via XCM, designed to provide an unbiased platform, and user-friendly cross-chain message transfers within the Polkadot ecosystem. Think of a no-code layer to compose transactions.
    
 - An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama:
+  
   We are building a building a utility that interfaces with relay chain and parachains that have established HRMP channels, enabling cross chain transfers.
   
 - An indication of why your team is interested in creating this project.
+  
   We have experience working with xcm connecting parachains via hrmp, building Defi and Governance applications. We see the potency of XCM and are interested in building tools that improve the experience for standard non-technical users as well as developers who want to build the next generation of XCM Dapps.
 
 
@@ -32,15 +35,14 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 - Where and how does your project fit into the ecosystem?
 
+XcmSend is in the category of a utility tool, that makes interacting with blockchains in relation to cross-chain, simple and painless.
   
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-   Our target audience are the userbase of polkadot/kusama and parachains which are enabled to make xcm tranfers. Within that userbase are developers 
+  
+Our target audience are users of polkadot/kusama and parachains which are enabled to make xcm tranfers. Within that userbase are developers such as ourselves who have certain pains when testing our integrations. Those pains include composition and execution status updates, which is our initial focus, and which will benefit all, including the standard non-technical yet competent users. 
+  
 - What need(s) does your project meet?
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
  
-
 As of the present composition, sending asset transfers across distinct parachain connected networks remains a task that lacks inherent user-friendliness. A relatively modest array of decentralized exchanges, including entities such as HydraDX and Polkaswap, are available to address this challenge. Notably, the proliferation of XCM adoption within the DotSama ecosystem is exhibiting a notable and continuous expansion. We want a bring a a user-friendly way for anyone to send assets from one parachain to another. Opening up XCM transfers for everyone.
 
 Xcm Adoption in the Dotsama ecosystem is growing and growing:
@@ -74,19 +76,19 @@ https://github.com/colorfulnotion/substrate-etl/pull/10
 
 In a nutshell, XcmSend aims to simplify the process of xcm transaction curation and execution, as a non-partisan, open source project?
 
--   **Non biassed XCM Transfers**
+-   **Non-biased XCM Transfers**
 
 XCMSend treats all transactions to all chains with the same priority. We do not charge middleman fees and our priority is that the user defined Asset gets properly sent.
 
 -   **Increase XCM transaction volume**
 
-By enabling more users to utilize easy to send XCM asset transfers, we aim at providing a peak in XCM transaction traffic.
+By enabling more users to utilize easy to send XCM asset transfers, our ambition is to take a good share of the growing XCM traffic.
 
 -   **Not a DEX**
 
 XCMSend does not manage liquidity pools, no limit orders, we only send assets from chain A to B with XCM.
 
--  ** Enable non-custodial, easy to use XCM Transfers/Make XCM transfers user friendly**
+**Non-custodial and user friendly**
 
 - **The need for simplification and real-time updates**
   
@@ -114,8 +116,6 @@ XcmSend is a public Xcm asset transfer app that is open source and serverless, w
 Anyone can create their own instance, and XCMSend.com will also host an official instance. 
 
 ### **Project Details**
-
-  ### Project Details
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
