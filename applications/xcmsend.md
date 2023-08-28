@@ -148,7 +148,7 @@ API: Rust, Substrate utilities.
   - Like previously stated, XcmSend is not a DEX so we will not provide limit orders, trading one token for another with a market maker and/or orderbook functionality.
 
 we will provide generic functionality where we can that covers multiple chains, however if there is a unique integration required for a parachain, this will be left out of these milestones. Where will be as explicit as possible about which chains we will support, however that support could be generalised to other chains. We will make simple for other projects to clone our project add their chains, then can their host that instance themselves and/or make a PR to XcmSend official repo. 
-  
+   
 
 ### **Legal Structure**
 
